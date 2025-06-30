@@ -67,6 +67,38 @@ https://github.com/user-attachments/assets/68ab7123-e12f-4eb1-a2fe-ae5c15d83c91
 
 https://github.com/user-attachments/assets/5eb92a6d-42fe-41f9-9bfc-cb7710752e0d
 
+<h2>Set dc-1's NIC Private IP address to be static</h2>
+<p>After the VM is created, go to the Domain Controller’s network interface (NIC) settings and set the private IP address to static. We’re doing this so that dc-1 always keeps the same IP, since it’s gonna act as the server for Client-1, we don’t want the IP changing on us.</p>
+
+<h4>Home -> Virtual Machine -> dc-1 -> Network Settings -> Network Interface/IP Configuration </h4>
+
+
+https://github.com/user-attachments/assets/73556410-ea3c-46e7-8fae-ca6b22d3d168
+
+<h2>Log into the VM and disable the Windows Firewall</h2>
+
+<p>Next up, we’re gonna log into the dc-1 VM and disable the Windows Firewall, this is just to help with testing connectivity. Normally, you wouldn’t do this in a real-world setup, but for lab purposes, it makes things easier while we’re setting everything up.</p>
+
+<p>So now just log into the dc-1 VM using its public IP address. I’m on a Mac, so I use an app called Microsoft Remote Desktop (Windows App) to connect via RDP. If you’re on Windows, just open up Remote Desktop, enter the public IP of the VM, and sign in using the credentials we set earlier for dc-1.</p>
+
+
+https://github.com/user-attachments/assets/8d50f6c4-7a73-42f6-8a05-99f78452364f
+
+<p>Now that we’re inside the dc-1 VM (our domain controller), we’re gonna disable the Windows Firewall. To do that, right-click the Start menu, click Run, and type in wf.msc, this will open up the Windows Firewall settings.</p>
+
+https://github.com/user-attachments/assets/b4cfec81-63ba-4b57-89f0-e6265dae0386
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
