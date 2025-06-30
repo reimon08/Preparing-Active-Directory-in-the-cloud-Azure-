@@ -89,7 +89,7 @@ https://github.com/user-attachments/assets/8d50f6c4-7a73-42f6-8a05-99f78452364f
 
 https://github.com/user-attachments/assets/21259746-9417-4ac7-be99-9162e426bf35
 
-<h2>set Client-1’s DNS settings to DC-1’s Private IP address</h2>
+<h2>Set Client-1’s DNS settings to DC-1’s Private IP address</h2>
 
 <p>Now we’re gonna set Client-1’s DNS settings to point to DC-1’s private IP address. Basically, instead of client-1 using the default Azure or Microsoft DNS servers, we’re telling it to use our own dc-1 DNS server, which is essential for domain joining to work properly.</p>
 
@@ -106,8 +106,17 @@ https://github.com/user-attachments/assets/10cacfa3-6595-4fe7-beb3-4c5ed36e81a2
 <p>Now let’s log in to client-1. Just grab its public IP address from the Azure Portal and paste it into Remote Desktop (or the Windows App if you’re on a Mac) to connect.</p>
 
 
-
 https://github.com/user-attachments/assets/d37950bc-41f9-40c4-90d5-061ed05b3f60
+
+<h2>Attempt to ping DC-1’s private IP address</h2>
+
+<p>Once you’re logged into Client-1, open up PowerShell and try pinging dc-1’s private IP address(10.0.0.4) to make sure the two machines can talk to each other. If the ping goes through, we’re good. Then run ipconfig /all in the output, check the DNS settings, and you should see dc-1’s private IP address listed there. That means the DNS is set up correctly, and we’re ready to move forward.</p>
+
+
+https://github.com/user-attachments/assets/bafebfd8-bbfc-41fc-be58-b375b793edd9
+
+
+
 
 
 
