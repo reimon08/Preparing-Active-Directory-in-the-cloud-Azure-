@@ -86,7 +86,10 @@ https://github.com/user-attachments/assets/8d50f6c4-7a73-42f6-8a05-99f78452364f
 
 <p>Now that we’re inside the dc-1 VM (our domain controller), we’re gonna disable the Windows Firewall. To do that, right-click the Start menu, click Run, and type in wf.msc, this will open up the Windows Firewall settings.</p>
 
-https://github.com/user-attachments/assets/b4cfec81-63ba-4b57-89f0-e6265dae0386
+
+https://github.com/user-attachments/assets/21259746-9417-4ac7-be99-9162e426bf35
+
+
 
 
 
