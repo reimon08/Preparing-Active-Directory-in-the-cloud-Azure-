@@ -114,6 +114,10 @@ https://github.com/user-attachments/assets/d37950bc-41f9-40c4-90d5-061ed05b3f60
 
 https://github.com/user-attachments/assets/bafebfd8-bbfc-41fc-be58-b375b793edd9
 
+<h2>✅ Conclusion – Active Directory Setup in Azure</h2>
+
+<p>This concludes the preparation phase of setting up Active Directory in the cloud using Azure. This is just the first step, make sure to continue with Step 2, where we’ll dive into the configuration of Active Directory.</p>
+
 
 
 
